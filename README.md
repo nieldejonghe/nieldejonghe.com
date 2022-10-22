@@ -26,6 +26,7 @@ Repository for holding my resume website contents.
   - Self created documenting tool with markdown?
 - Setup automatic OS patching
 - Setup vulnerability scanner 
+- Find a way to visiualize cicd steps that build this website (Maybe in realtime?) 
   
 ### Configuration Steps
 1. Start from a clean RPI, install latest OS and update.
