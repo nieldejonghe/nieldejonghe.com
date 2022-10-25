@@ -3,6 +3,7 @@ Repository for holding my resume website contents.
 
 **Must Have**
 
+- Setup VPN on PI so I can safely connect to it from outside my home network (Wireguard and forward VPN port)
 - Hosting the website will happen on my RPI4 from my home.
 - RPI and webserver configuration should happen with an ansible playbook.
 - Need DNS hosting of nieldejonghe.com, how to make sure dynamic IP is updated?
@@ -12,7 +13,7 @@ Repository for holding my resume website contents.
 - Host website with nginx.
 - Initial contents of the page should be my own resume.
 - CI/CD should push updates upon commit to main branch to *production*.
-- Look into port forwarding configration on local router.
+- Look into port forwarding configration on local router (80 and 443 most likely)
 - Document all efforts.
 - How to deal with secrets when using a public git repo?
 
@@ -28,6 +29,7 @@ Repository for holding my resume website contents.
 - Setup vulnerability scanner 
 - Find a way to visiualize cicd steps that build this website (Maybe in realtime?) 
 - Add website visitor counter (write to db?)
+- Extend ban period in fail2ban and reverse IP lookup locations (maybe show graphical on site?)
   
 ### Configuration Steps
 1. Start from a clean RPI, install latest OS and update.
