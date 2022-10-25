@@ -1,0 +1,6 @@
+---
+- hosts: rpi
+  become: yes
+  
+  roles: 
+    - pi-setup

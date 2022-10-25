@@ -33,14 +33,20 @@ Repository for holding my resume website contents.
 1. Start from a clean RPI, install latest OS and update.
 2. Ansible configuration for nginx and creating hello world website
 
-- Install Ansible by using virtualenv 
-```
-sudo apt install -y sshpass python3-pip python3-venv # installing needed packages
-python3 -m venv ansible # creating virtualenv
-source ansible/bin/activate # starting virtualenv
-python3 -m pip install ansible # installing ansible
-ansible --version # checking ansible version
-```
+- On your DEV machine Install Ansible by using virtualenv.
+
+    ```
+    sudo apt update && sudo apt install -y sshpass python3-pip python3-venv # installing needed packages
+    python3 -m venv ~\ansible # creating virtualenv
+    source ~/ansible/bin/activate # starting virtualenv
+    python3 -m pip install ansible # installing ansible
+    ansible --version # checking ansible version
+    ```
+
+- Setting up Ansible to connect to raspberry pi.
+
+    ` ansible-playbook pi-setup.yml --ask-pass --diff `
+
 
 
 
