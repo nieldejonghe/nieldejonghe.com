@@ -1,5 +1,7 @@
-# nieldejonghe.com
-Repository for holding my resume website contents.
+## nieldejonghe.com
+Repository for holding my resume website contents and raspberry pi configurations.
+
+### Project details:
 
 **Must Have**
 
@@ -32,6 +34,9 @@ Repository for holding my resume website contents.
 - Extend ban period in fail2ban and reverse IP lookup locations (maybe show graphical on site?)
   
 ### Configuration Steps
+
+**Raspberry Pi setup**
+
 1. Start from a clean RPI, install latest OS and update.
 2. Ansible configuration for nginx and creating hello world website
 
